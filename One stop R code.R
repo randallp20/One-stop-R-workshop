@@ -25,7 +25,7 @@ vc.has..mining.knowledge <-
   c(TRUE,FALSE,TRUE,FALSE)
 vc.has..mining.knowledge
 
-##  
+##  4
 5000:5049
 
 
@@ -42,7 +42,7 @@ some.stakes <- vc.investment.stake[c(1,3)]
 
 
 
-## slide 5
+## slide 6
 
 gold.type <- c("yellow","fools","14K","fools")
 
@@ -53,4 +53,22 @@ gold.type.factor
 
 levels(gold.type.factor)
 
-as.numeric(gold.type.factor)
+
+
+## slide 7
+
+32 + 9/5
+
+some.stakes -400
+
+(1:5)^2
+
+gold.price.per.lb <- gold.price.per.ounce * 16
+
+gold.price.per.lb
+
+1:3 + c(10,20,30)
+
+
+
+
