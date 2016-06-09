@@ -125,3 +125,27 @@ gold.exchange.rates * c(25,20,22,25,28)
 mean(gold.exchange.rates)
 
 mean(gold.exchange.rates, na.rm=TRUE)
+
+
+
+### loading data into memory and analysis of that data
+
+file.name <- "/Users/randycoryell/One stop R workshop/one stop R workshop/gold.txt"
+
+gold.data <- read.table(file=file.name, sep="\t", skip=8,
+header=TRUE, na.strings=c("."))
+
+class(gold.data)
+
+head(gold.data)
+
+
+### next step
+
+dim(gold.data)
+
+str(gold.data)
+
+names(gold.data)
+
+
