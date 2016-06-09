@@ -24,3 +24,33 @@ vc.investment.stake
 vc.has..mining.knowledge <-
   c(TRUE,FALSE,TRUE,FALSE)
 vc.has..mining.knowledge
+
+##  
+5000:5049
+
+
+## 5
+my.venture.capitalists[3]
+
+2:4
+
+my.venture.capitalists[2:4]
+
+c(1,3)
+
+some.stakes <- vc.investment.stake[c(1,3)]
+
+
+
+## slide 5
+
+gold.type <- c("yellow","fools","14K","fools")
+
+gold.type
+gold.type.factor <- factor(gold.type)
+
+gold.type.factor
+
+levels(gold.type.factor)
+
+as.numeric(gold.type.factor)
